@@ -7,7 +7,6 @@ from django.http import JsonResponse
 def index(request):
 	return render(request, 'base/index.html')
 
-
 def charge(request):
 	amount = 5
 	if request.method == 'POST':
